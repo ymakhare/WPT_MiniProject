@@ -1,0 +1,259 @@
+html,
+body {
+  margin: 0px;
+  height: 100vh;
+}
+.parent1 {
+  background: white;
+  flex-wrap: wrap;
+}
+.fas{
+  width: 50px;
+  height: 50px;
+  color: red;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 84, 84, 0.9);
+
+  height: 150px;
+}
+.menu1 {
+  flex: 1;
+  display: flex;
+  font-size: 30px;
+  font-weight: 1000;
+  color:black;
+  transition: all 2s;
+ 
+ 
+}
+.menu1-child1{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+ background: FF3333;
+
+}
+.menu1-child2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  flex: 5;
+
+}
+.menu1-child2:hover{
+  transform: scale(1.8);
+}
+.bike{
+  color:red;
+  transition: 2ms;
+}
+.bike:hover{
+  color: black;
+  background:  #BA4A00;
+}
+.menu1:hover {
+  background-color: antiquewhite;
+  color: red;
+}
+.menu2 {
+  flex: 1;
+   background: linear-gradient(
+    rgba(245, 84, 84, 0.5),
+    rgba(245, 84, 84, 0.8),
+    rgba(245, 84, 84, 0.9)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.menubarchild {
+  margin-right: 20px;
+  font-weight: bolder;
+  color: cornsilk;
+  border: cornsilk solid;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 3ms;
+}
+.menubarchild:hover {
+  transform: scale(1.2);
+  background: rgba(255, 150, 50, 0.8);
+}
+.parent2 {
+  height: 70vh;
+  display: flex;
+
+  justify-content: center;
+   background: linear-gradient(
+    rgba(245, 84, 84, 0.5),
+    rgba(245, 84, 84, 0.8),
+    rgba(245, 84, 84, 0.9)
+  );
+}
+.parent2-1 {
+ 
+  display: flex;
+
+  flex-direction: column;
+  flex: 1;
+
+ 
+}
+.parent2-1-child{
+
+  background: linear-gradient(
+    rgba(245, 84, 84, 0.5),
+    rgba(245, 84, 84, 0.8),
+    rgba(245, 84, 84, 0.9)
+  );
+  height: 105px;
+  font-size: 0.5cm;
+  font-weight: bolder;
+  border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+
+ 
+  transition:all 3ms;
+  cursor: pointer;
+  margin: 4px;
+}
+.parent2-1-child:hover{
+  transform: scale(1.2);
+  background: red;
+}
+.parent2-2 {
+background-image: url('bike.jpeg');
+  background-size: 100% 100%;
+  object-fit: fill;
+
+  display: flex;
+  flex: 5;
+}
+.parent2-3 {
+
+  flex: 1;
+}
+.logo-parent{
+  display: flex;
+}
+.logo{
+  flex: 1;
+}
+.parent3 {
+  flex-wrap: wrap;
+flex-wrap: wrap;
+
+  height: 50vh;
+
+  display: flex;
+}
+.parent3-1{
+
+flex: 1;
+background-color: #FFAB91;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+padding: 10px;
+font-size: x-large;
+font-weight: bolder;
+}
+.parent3-1-1{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.4cm;
+}
+.parent3-1-2{
+  font-size: 0.5cm;
+}
+.parent3-2{
+  background-color: #FFAB91;
+flex: 1;
+
+}
+.img {
+  background-size: cover;
+  object-fit: fill;
+}
+.middle-header {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+   background: linear-gradient(
+     to bottom,
+    rgba(245, 84, 84, 0.5),
+    rgba(245, 84, 84, 0.8),
+    rgba(245, 84, 84, 0.9)
+  );
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 0.4cm;
+}
+.mid1 {
+  flex: 1;
+  border: whitesmoke solid;
+  padding: 6px;
+  border-radius: 10px;
+  transition: all 2ms;
+  cursor: pointer;
+}
+.mid1:hover {
+  background: rgba(255, 150, 50, 0.8);
+}
+.logo-social{
+  border: blue;
+
+  margin-top: 30px;
+
+
+}
+.f1{
+  border-radius: 5px;
+  color:whitesmoke;
+  background-color: royalblue;
+}
+.f2{
+  border-radius: 5px;
+  color:whitesmoke;
+  background-color:red;
+}
+.f3{
+  border-radius: 5px;
+  color:whitesmoke;
+  background-color: royalblue;
+}
+.f4{
+  border-radius: 5px;
+  color:whitesmoke;
+  background-color: green;
+}
+.button{
+  border-radius: 10px;
+  padding: 10px;
+  width: 70px;
+  background-color: whitesmoke;
+  transition: all 3ms;
+  cursor: pointer;
+}
+.button:hover{
+  transform: scale(1.5);
+  background: violet;
+}

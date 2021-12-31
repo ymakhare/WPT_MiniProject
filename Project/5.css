@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0px;
+ 
+  background: chocolate;
+}
+.parent1 {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.parent {
+     height: 100%;
+  background: crimson;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.p1 {
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+
+  background: chartreuse;
+}
